@@ -1,0 +1,47 @@
+<h1>Deaf Aunty</h1>
+
+<p>Say something to Aunty</p>
+
+<form action="/naughty" method="post">
+  <br/>
+  <input type="text" name="post[title]" placeholder="gwen">
+  <input type="text" name="post[price]" placeholder="bitch">
+  <br/>
+  <br/>
+  Describe her
+  <textarea name="user_input"></textarea>
+  <input type="submit" value="Say It!">
+  <br/>
+  <br/>
+</form>
+
+  <form action="/naughty" method="post">
+  <input type="text" name="user_input">
+  <input type="submit" value="Say It!">
+  <br/>
+  <br/>
+  What is your name?
+  <input type="human" name="name" placeholder="Daniel">
+  <br/><br/>
+  Tell Aunt more about yourself:<br>
+  <textarea cols="40" rows="5" name="sucker"></textarea>
+  <br/><br/>
+  What groceries does Aunt want you to buy?<br/>
+  <input type="checkbox" name="option1" value="Milk" checked> Milk
+  <br/>
+  <input type="checkbox" name="option2" value="Butter" checked> Butter<br/>
+  <input type="checkbox" name="option3" value="Cheese"> Cheese
+  <br/><br/>
+  What else do you want to buy?<br/>
+  <select name="mydropdown">
+  <option value="Milk">Durex</option>
+  <option value="Cheese">Old Cheese</option>
+  <option value="Bread">Hot Bread</option>
+  </select>
+</form>
+
+<p>URL parameters:</p>
+<%= params %>
+
+<p><%= @reply %></p>
+
